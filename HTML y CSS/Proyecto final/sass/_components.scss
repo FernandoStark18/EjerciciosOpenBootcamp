@@ -1,21 +1,20 @@
 @mixin btn-primary {
-    padding: 0.5rem 1.5rem;
+    padding: 1.5rem 1rem;
     border-radius: 0.25rem;
+    font-weight: bold;
 }
 
 @mixin btn-secondary {
-    font-size: 0.75rem;
-    padding: 0.1rem 1rem;
+    font-size: 0.9rem;
+    padding: 0.4rem 0.7rem;
 }
 
-$color-main: #0075FF;
+$color-main: #0052FF;
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    gap: 30px;
 }
 
 .btn-main {
@@ -51,39 +50,53 @@ $color-main: #0075FF;
 }
 
 .main-menu {
+    margin-bottom: 0;
     li {
-        font-size: 0.5rem;
+        font-size: 0.90rem;
+        font-weight: bold;
         list-style: none;
         display: inline;
+        padding: 0 1rem;
+
+        a {
+            text-decoration: none;
+            color: black;
+
+            &:hover {
+                text-decoration: underline;
+                text-decoration-color: $color-main;
+            }
+        }
     }
 }
 
 .icon-sm {
     i {
-        font-size: 0.75rem;
+        font-size: 3rem;
         color: $color-main;
         width: 4rem;
         height: 4rem;
-        padding: 0.1rem 0.25rem;
+        padding: 0.5rem 1rem;
         border-radius: 50%;
-        box-shadow: 0 0 10px #00000040;
+        box-shadow: 0 1rem 10px #00000010;
     }
 }
 
-.feature {
+.benefit {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 18rem;
+
     .icon {
         color: $color-main;
-        font-size: 10rem;
+        font-size: 6rem;
     }
 
     .description {
         .title {
-            font-size: 2rem;
+            font-size: 1.5rem;
+            font-weight: bold;
         }
 
         .text {
@@ -94,8 +107,14 @@ $color-main: #0075FF;
 
     .cta {
         color: $color-main;
+        font-size: 0.9rem;
         font-weight: 600;
-        margin-top: 3rem;
+        margin-top: 2rem;
+
+        &:hover {
+            cursor: pointer;
+        }
+
     }
 }
 
@@ -103,10 +122,11 @@ $color-main: #0075FF;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     .icon {
         padding: 0;
         color: $color-main;
-        font-size: 10rem;
+        font-size: 5rem;
     }
 
     .title {

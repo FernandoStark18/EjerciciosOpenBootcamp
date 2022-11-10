@@ -1,0 +1,234 @@
+@use "components";
+
+@mixin sec-display {
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 4rem;
+    border-bottom: solid 1px #ddd;
+    position: fixed;
+    background-color: white;
+
+    .logo img {
+        max-width: 7rem;
+        padding-bottom: 0.3rem;
+    }
+}
+
+.home-img img {
+    max-width: 30rem;
+}
+
+.sec-home {
+    display: flex;
+    padding: 10rem 0 0 3rem;
+    align-items: center;
+
+    @include sec-display();
+
+    .home-cta {
+        flex: 1;
+
+        img {
+            width: 1.5rem;
+        }
+
+        .cta-text {
+            color: components.$color-main;
+            font-weight: bold;
+
+            span a {
+                text-decoration: none;
+            } 
+
+            &:hover span a{
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .home-title {
+        width: 25rem;
+        font-size: 4rem;
+    }
+
+    .home-description {
+        margin-top: 1.5rem;
+        font-size: 1.3rem;
+        font-weight: bold;
+        width: 30rem;
+    }
+}
+
+.lead-magnet {
+    display: flex;
+    gap: 1rem;
+    width: 30rem;
+
+    input {
+        font-size: 1.2rem;
+    }
+
+    button {
+        width: 20rem;
+    }
+}
+
+.sec-features {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    @include sec-display();
+
+    .features {
+        display: flex;
+        .text {
+            .feature {
+                display: flex;
+                flex-direction: row;
+                text-align: start;
+                align-items: flex-start;
+                gap: 2rem;
+                width: 26rem;
+                padding-top: 1rem;
+
+                .description {
+                    .title {
+                        font-size: 1.4rem;
+                    }
+
+                    .description-text {
+                        color: #5B616E;
+                    }
+                }
+            }
+        }
+
+        .image {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.intro {
+    text-align: center;
+
+    h3 {
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+
+    p {
+        padding-top: 1rem;
+        color: #5B616E;
+    }
+}
+
+.sec-benefits {
+    @include sec-display();
+
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    .benefits-card {
+        padding-top: 3rem;
+    }
+}
+
+hr {
+    border-top: solid 1px #ddd;
+}
+
+.sec-kpis {
+    background-color: components.$color-main;
+    padding: 2rem 0 4rem 0;
+
+    .kpis {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 900px;
+        margin: auto;
+
+        .kpi {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .number {
+                color: white;
+                font-size: 4rem;
+                font-weight: bold;
+            }
+
+            .description {
+                color: #B2CBFF;
+            }
+        }
+    }
+}
+
+.sec-onboarding {
+    padding-top: 2rem;
+    width: 900px;
+    margin: auto;
+
+    .steps {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2rem;
+        .step-separator {
+            flex: 1;
+            border-top: solid 1px #bbb;
+        }
+    }
+}
+
+.sec-footer-cta {
+    background-color: #f4f8fe;
+    margin-top: 4rem;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+
+    .footer-cta {
+        width: 37rem;
+        padding-left: 13rem;
+
+        .cta-title {
+            font-weight: bold;
+            font-size: 2rem;
+        }
+
+        .cta-description {
+            padding-top: 1rem;
+        }
+    }
+}
+
+.sec-rights {
+    background-color: #f4f8fe;
+    .rights {
+        margin: 0;
+        padding: 2rem 0;
+        text-align: center;
+        color: #5B616E;
+        font-weight: bold;
+    }
+}
