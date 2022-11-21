@@ -1,0 +1,13 @@
+{
+  "name": "ejercicio-3",
+  "version": "1.0.0",
+  "description": "Solución del ejercicio 3",
+  "main": "index.js",
+  "scripts": {
+    "factorial-for": "node  factorial-for.js",
+    "factorial-while": "node  factorial-while.js",
+    "factorial-break": "node  factorial-break.js"
+  },
+  "author": "FernandoStark18",
+  "license": "ISC"
+}
