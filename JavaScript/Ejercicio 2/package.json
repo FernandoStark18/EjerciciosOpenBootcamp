@@ -1,0 +1,11 @@
+{
+  "name": "ejercicio-2",
+  "version": "1.0.0",
+  "description": "Solucón del ejercicio 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "FernandoStark18",
+  "license": "ISC"
+}
