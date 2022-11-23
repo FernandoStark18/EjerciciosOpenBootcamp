@@ -11,3 +11,24 @@ Crea un archivo JS que contenga las siguientes líneas
 - Una nueva lista que concatene la lista de directores y la lista de los títulos (utilizando el factor de propagación)
 */
 
+const lstShoppingList = ["Pollo", "Avena", "Leche", "Café", "Verduras"];
+lstShoppingList.push("Aceite de Girasol");
+lstShoppingList.pop();
+const lstFavMovies = [
+    {titulo: "Shrek 2", director: "Mike Myers", anyo: "2004"},
+    {titulo: "Spiderman 2", director: "Sam Raimi", anyo: "2004"},
+    {titulo: "Spider-Man No Way Home", director: "Jon Watts", anyo: "2021"}
+];
+const lstMoviesAfter2010 = lstFavMovies.filter(valor => valor.anyo > 2010);
+const lstDirectors = lstFavMovies.map(valor => valor.director);
+const lstMovies = lstFavMovies.map(valor => valor.titulo);
+const lstDirectorsAndMovies = lstDirectors.concat(lstMovies);
+const lstDirectorsAndMoviesProp = [...lstDirectors, ...lstMovies];
+
+console.log(lstShoppingList);
+console.log(lstFavMovies);
+console.log(lstMoviesAfter2010);
+console.log(lstDirectors);
+console.log(lstMovies);
+console.log(lstDirectorsAndMovies);
+console.log(lstDirectorsAndMoviesProp);
