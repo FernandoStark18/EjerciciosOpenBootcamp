@@ -1,0 +1,11 @@
+{
+  "name": "ejercicio-7",
+  "version": "1.0.0",
+  "description": "Solución del ejercicio 7",
+  "main": "conjuntos.js",
+  "scripts": {
+    "test": "node conjuntos.js"
+  },
+  "author": "FernandoStark18",
+  "license": "ISC"
+}
