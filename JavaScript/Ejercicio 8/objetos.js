@@ -16,7 +16,7 @@ const objMe = {
 const intMyAge = objMe.edad;
 const lstMyBestFriends = [
     { nombre: "Víctor", apellido: "Gómez", edad: 23, altura: 182, eresDesarrollador: false }, 
-    { nombre: "Bryant", apellido: "Ramos", edad: 21, altura: 178, eresDesarrollador: false }
+    { nombre: "Bryant", apellido: "Ramos", edad: 21, altura: 177, eresDesarrollador: false }
 ];
 const lstData = [objMe, ...lstMyBestFriends];
 const lstDataOrederedByAge = lstData.sort((a, b) => b.edad - a.edad);
