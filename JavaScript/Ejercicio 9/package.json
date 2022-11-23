@@ -1,0 +1,11 @@
+{
+  "name": "ejercicio-9",
+  "version": "1.0.0",
+  "description": "Solución del ejercicio 9",
+  "main": "fechas.js",
+  "scripts": {
+    "test": "node fechas.js"
+  },
+  "author": "FernandoStark18",
+  "license": "ISC"
+}
