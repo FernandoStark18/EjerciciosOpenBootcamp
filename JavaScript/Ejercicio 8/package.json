@@ -1,0 +1,11 @@
+{
+  "name": "ejercicio-8",
+  "version": "1.0.0",
+  "description": "Solución del ejercicio 8",
+  "main": "objetos.js",
+  "scripts": {
+    "test": "node objetos.js"
+  },
+  "author": "FernandoStark18",
+  "license": "ISC"
+}
