@@ -1,0 +1,14 @@
+{
+  "name": "ejercicio-11",
+  "version": "1.0.0",
+  "description": "Solución del ejercicio 11",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "FernandoStark18",
+  "license": "ISC",
+  "dependencies": {
+    "winston": "^3.8.2"
+  }
+}
