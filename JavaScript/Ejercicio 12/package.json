@@ -1,0 +1,12 @@
+{
+  "name": "ejercicio-12",
+  "version": "1.0.0",
+  "description": "Solución del ejercicio 12",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "FernandoStark18",
+  "license": "ISC"
+}
