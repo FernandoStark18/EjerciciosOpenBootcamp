@@ -8,5 +8,8 @@
     "start": "node index.js"
   },
   "author": "FernandoStark18",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.1.2"
+  }
 }

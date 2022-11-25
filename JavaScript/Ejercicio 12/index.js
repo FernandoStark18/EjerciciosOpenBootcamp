@@ -8,6 +8,7 @@ Crea un nuevo proyecto de Node
 - Modifica el último console.log del entrypoint index.js para devolver el resultado en color verde
 */
 import { suma, multiplica } from "./controller.js";
+import chalk from 'chalk'
 
 console.log(suma(1, 2));
-console.log(multiplica(4, 5));
+console.log(chalk.green(multiplica(4, 5)));
