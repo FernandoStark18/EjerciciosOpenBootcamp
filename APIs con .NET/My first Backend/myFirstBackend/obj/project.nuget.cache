@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "FMIgAPKwN+S53hoxfG8vylAcrNfjtwF1g62VycPjIgVMR14W061mBYNvu05kO5iaXK969ffv/ZV5D5t/ARb1TQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\flaco\\OneDrive\\Documents\\GitHub\\EjerciciosOpenBootcamp\\APIs con .NET\\My first Backend\\myFirstBackend\\myFirstBackend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\flaco\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\flaco\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\flaco\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\flaco\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\flaco\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\flaco\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
